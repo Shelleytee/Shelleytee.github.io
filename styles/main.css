@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One');
 
-/* font-family: 'Poiret One', cursive;
-font-family: 'Open Sans', sans-serif;
-*/
-
 /* --------------------------------
 Body Formatting
 ----------------------------------- */
@@ -23,13 +19,6 @@ body {
 /* --------------------------------
 Header/Navigation Section
 ----------------------------------- */
-/*.header {
-  height: 50px;
-  margin: 0;
-  background-color: #3f5765;
-  list-style: none;
-  text-align: left;
-}*/
 
 .navbar {
   height: 50px;
