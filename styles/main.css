@@ -16,16 +16,60 @@ Body Formatting
 body {
   background-color: #efefef;
   margin: 0;
+  padding: 0;
 }
 
-h2, h3 {
-  color: #2b3a42;
+
+/* --------------------------------
+Header/Navigation Section
+----------------------------------- */
+.header {
+  height: 50px;
+  margin: 0;
+  background-color: #3f5765;
+  list-style: none;
+  text-align: left;
 }
+
+.navbar {
+  height: 50px;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  list-style: none;
+  color: #efefef;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 15px 20px 15px 20px;
+  color: #efefef;
+}
+
+.navbar a:hover {
+  background: #ff530d;
+  color:#2b3a42;
+}
+
+/* --------------------------------
+Main Section
+-----------------------------------*/
 
 h1 {
   font-family: 'Poiret One', cursive;
   font-size: 65px;
   line-height: 200px;
+}
+
+h1, h2, h3, p {
+  color: #2b3a42;
 }
 
 h2 {
@@ -42,30 +86,9 @@ a {
 }
 
 p {
-  background: #666;
-  color: white;
   padding: 8px 5px 8px 5px;
 }
 
-.secondary {
-  background: none;
-  color: #555;
-}
-
-#special {
-  background: red;
-  color: #white;
-}
-
-li {
-  background: #666;
-  color: white
-  padding: 8px 5px 8px 5px
-}
-
-/* --------------------------------
-random comment here to show comments
------------------------------------ */
 
 /* --------------------------------
 Footer Section
@@ -78,21 +101,15 @@ Footer Section
 .footer .container {
   background-color: #3f5765;
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 
 .footer h2 {
   margin: 0;
   color: #efefef;
   font-size: 40px;
-  margin: 0 0 20px 0;
+  line-height: 35px;
   padding:50px 0 50px;
-}
-
-.footer p {
-  color: #efefef;
-  font-size: 18px;
-  margin: 0 0 20px 0;
 }
 
 .footer .btn {
@@ -100,8 +117,8 @@ Footer Section
   margin-bottom: 40px;
   color: #efefef;
   font-size: 18px;
-  padding: 8px 80px;
   text-decoration: none;
+  padding: 8px 80px;
   display: inline-block;
 }
 
