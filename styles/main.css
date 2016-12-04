@@ -1,10 +1,40 @@
-body {
-  background-color: #333;
-  font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One');
+
+/* font-family: 'Poiret One', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* --------------------------------
+Body Formatting
+----------------------------------- */
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 
-h1, h2 {
-  color: #775;
+body {
+  background-color: #efefef;
+  margin: 0;
+}
+
+h2, h3 {
+  color: #2b3a42;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+  font-size: 65px;
+  line-height: 200px;
+}
+
+h2 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 a {
@@ -31,4 +61,51 @@ li {
   background: #666;
   color: white
   padding: 8px 5px 8px 5px
+}
+
+/* --------------------------------
+random comment here to show comments
+----------------------------------- */
+
+/* --------------------------------
+Footer Section
+-----------------------------------*/
+.footer {
+  height: 400px;
+  text-align: center;
+}
+
+.footer .container {
+  background-color: #3f5765;
+  position: relative;
+  top: 100px;
+}
+
+.footer h2 {
+  margin: 0;
+  color: #efefef;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 50px;
+}
+
+.footer p {
+  color: #efefef;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.footer .btn {
+  background-color: #2b3a42;
+  margin-bottom: 40px;
+  color: #efefef;
+  font-size: 18px;
+  padding: 8px 80px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn:hover {
+  background:#ff530d;
+  color:#2b3a42;
 }
