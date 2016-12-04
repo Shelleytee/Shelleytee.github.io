@@ -23,16 +23,20 @@ body {
 /* --------------------------------
 Header/Navigation Section
 ----------------------------------- */
-.header {
+/*.header {
   height: 50px;
   margin: 0;
   background-color: #3f5765;
   list-style: none;
   text-align: left;
-}
+}*/
 
 .navbar {
   height: 50px;
+  margin: 0;
+  background-color: #3f5765;
+  list-style: none;
+  text-align: left;
 }
 
 .navbar ul {
