@@ -26,6 +26,7 @@ Header/Navigation Section
   background-color: #3f5765;
   list-style: none;
   text-align: left;
+  border-bottom: 2px solid #ff530d;
 }
 
 .navbar ul {
@@ -42,7 +43,7 @@ Header/Navigation Section
   text-decoration: none;
   float: left;
   display: block;
-  padding: 15px 20px 15px 20px;
+  padding: 16px 20px 15px 20px;
   color: #efefef;
 }
 
@@ -75,7 +76,7 @@ h3 {
 }
 
 a {
-  color: orange;
+  color: #ff530d;
 }
 
 p {
@@ -116,6 +117,6 @@ Footer Section
 }
 
 a.btn:hover {
-  background:#ff530d;
-  color:#2b3a42;
+  background: #ff530d;
+  color: #2b3a42;
 }
