@@ -1,4 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One');
+/* -----------------------------------
+Global Settings for Blog
+----------------------------------- */
+
+/* {
+  border: 1px solid red !important;
+}
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    display: none;
+  }
+}
+
+/* -----------------------------------
+Grid settings
+----------------------------------- */
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+.col-md-3 {
+  margin: 0;
+  padding: 0;
+}
+
+.col-md-4 {
+  padding: 0;
+  margin-top: 25px;
+}
 
 /* --------------------------------
 Body Formatting
@@ -43,7 +85,7 @@ Header/Navigation Section
   text-decoration: none;
   float: left;
   display: block;
-  padding: 16px 20px 15px 20px;
+  padding: 14px 20px;
   color: #efefef;
 }
 
@@ -58,8 +100,10 @@ Main Section
 
 h1 {
   font-family: 'Poiret One', cursive;
-  font-size: 65px;
+  font-size: 40px;
   line-height: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h1, h2, h3, p {
@@ -69,18 +113,21 @@ h1, h2, h3, p {
 h2 {
   font-size: 20px;
   font-style: italic;
+  margin-top: 0;
 }
 
 h3 {
   font-size: 18px;
+  margin-top: 0;
 }
 
 a {
   color: #ff530d;
+  text-decoration: none;
 }
 
 p {
-  padding: 8px 5px 8px 5px;
+  padding: 0;
 }
 
 
@@ -88,13 +135,17 @@ p {
 Footer Section
 -----------------------------------*/
 .footer {
-  height: 400px;
   text-align: center;
+  background-color: #3f5765;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
 }
 
 .footer .container {
-  background-color: #3f5765;
-  position: relative;
   top: 50px;
 }
 
