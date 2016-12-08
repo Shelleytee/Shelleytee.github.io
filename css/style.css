@@ -42,6 +42,10 @@ Grid settings
   margin-top: 25px;
 }
 
+.col-md-8 {
+  margin-top: 25px;
+}
+
 /* --------------------------------
 Body Formatting
 ----------------------------------- */
@@ -85,7 +89,7 @@ Header/Navigation Section
   text-decoration: none;
   float: left;
   display: block;
-  padding: 14px 20px;
+  padding: 13px 20px;
   color: #efefef;
 }
 
