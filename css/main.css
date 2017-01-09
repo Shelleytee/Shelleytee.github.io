@@ -8,7 +8,7 @@
 */
 
 * {
-  /*border: 1px solid red !important;*/
+  border: 1px solid red !important;*/
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -28,6 +28,16 @@ a {
   cursor: pointer;
   color: #ff530d;
   text-decoration: none;
+}
+
+p a {
+  cursor: pointer;
+  color: #191919;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #ff530d;
 }
 
 
@@ -132,4 +142,11 @@ ___________________________________________ */
 
 .img-curved {
   border-radius: 6px;
+}
+
+.img-padding {
+  display: inline-block;
+  align-content: center;
+  padding: 0 15px;
+  margin: 0;
 }
