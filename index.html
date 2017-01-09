@@ -21,6 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
 
   <!-- Favicon
@@ -31,55 +32,110 @@
 
 <body>
 
-  <!-- Navigation
+  <!-- Header
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <nav>
-    <div class="col">Logo</div>
-    <div class="col">Navigation</div>
-  </nav>
+  <header>
 
-  <!-- Carousel Images
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <nav class="container">
+      <div class="row">
+        <div class="one-half column"><img class="logo img-responsive img-circle" src=img/napolean.jpg></div>
+        <div class="one-half column">
+          <ul>
+            <li><a href="#0">Home</a></li>
+            <li><a href="#0">Blog</a></li>
+          <!--    <ul>
+                <li><a href="#0">Reflections</a></li>
+                <li><a href="#0">Technical</a></li>
+              </ul>  -->
+            <li><a href="#0">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- Slider Images
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <header></header>
+  <section class="slidersection">
+    <div class="container">Slider
+    </div>
+  </section>
 
   <!-- Main Body
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <main>
-    <section class="mainbody">
-      <div class="col">
-        <aside>
-          <form>Contact Us</form>
-        </aside>
+  <main class="container">
+    <aside class="three columns">
+      <h5>Location</h5>
+      <address>
+        Te Atatu</br>
+        Auckland</br>
+        New Zealand
+      </address>
+      <h5>Contact Us</h5>
+      <form class="row">
+        <button class="button" type="submit">Submit</button>
+      </form>
+    </aside><!-- end aside -->
+
+    <section class="nine columns">
+      <div class="row">
+        <h2>Latest Blogs</h2>
       </div>
 
       <div class="row">
-        <div class="col">
-          <img>Blog image</img>
-        </div>
-        <div class="col">
-          <article>Blog post details</article>
-        </div>
-      </div><!-- end row -->
+        <div class="six columns">
+          <div class="row">
+            <img class="img-responsive img-curved" src="http://placekitten.com/420/150" alt="image of kitten"></img>
+          </div>
+          <div class="row">
+            <h4>Sprint 3 - Reflection</h4>
+            <article>
+              Insert relevant text here...</br>
+              <a href="#0">Click to read more</a>
+            </article>
+          </div>
+        </div><!-- end feature blog -->
 
-      <div class="row">
-        <div class="col">
-          <img>Blog image</img>
+        <div class="six columns">
+          <div class="row">
+            <img class="img-responsive img-curved" src="http://placekitten.com/g/420/150" alt="image of kitten"></img>
+          </div>
+          <div class="row">
+            <h4>Sprint 3 - Technical</h4>
+            <article>
+              Insert relevant text here...</br>
+              <a href="#0">Click to read more</a>
+            </article>
+          </div>
         </div>
-        <div class="col">
-          <article>blog post details</article>
-        </div>
-      </div><!-- end row -->
-    </section><!-- end mainbody -->
+      </div>
+    </section><!-- end blog features -->
   </main><!-- end main -->
 
   <!-- Footer
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <footer>
-    <div class="col">
-      <a href="">social media links</a>
-    </div>
-    <div class="col">
-      <article>contact details</article>
+    <div class="container">
+      <div class="four columns">
+        <a href="#0">social media links</a>
+      </div>
+      <div class="four columns">
+        <h5>Location</h5>
+        <address>
+          Te Atatu</br>
+          Auckland</br>
+          New Zealand
+        </address>
+      </div>
+      <div class="four columns">
+        <h5>Contact Us</h5>
+        <form>
+          <button class="button" type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   </footer>
 

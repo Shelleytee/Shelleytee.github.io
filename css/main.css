@@ -1,0 +1,116 @@
+/* Table of Contents
+  Global
+  Navigation
+  Slider Styles
+  Main Body Styles
+  Footer Styles
+  Image Styles
+*/
+
+* {
+  border: 1px solid red !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e5e5e5;
+  color: #191919;
+}
+
+a {
+  cursor: pointer;
+}
+
+/* Navigation
+__________________________________________ */
+
+header {
+  background-color: #191919;
+  border-bottom: 2px solid #ff530d;
+}
+
+ul li {
+  display: inline-block;
+  float: right;
+  margin: 0;
+  position: relative;
+  align-content: flex-end;
+}
+
+ul li a {
+  list-style: none;
+  display: inline-block;
+  line-height: 50px;
+  color: #e5e5e5;
+  padding: 0 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  background: #ff530d;
+  color: #191919;
+  cursor: pointer;
+}
+
+/* Slider Styles
+___________________________________________ */
+
+.slidersection {
+  background: url(../img/background.png) repeat;
+  padding: 20px 0;
+  color: #fff;
+  border-bottom: 2px solid #191919;
+}
+
+/* Main Body Styles
+___________________________________________ */
+
+aside {
+  padding: 20px 0;
+}
+
+section {
+  padding: 20px 0;
+}
+
+
+/* Footer Styles
+___________________________________________ */
+
+footer {
+  background: #191919;
+  color: #e5e5e5;
+  padding: 20px 0;
+}
+
+
+/* Image Styles
+___________________________________________ */
+
+.logo {
+  margin: 20px 0px;
+  border: 5px solid #e5e5e5;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-curved {
+  border-radius: 6px;
+}
