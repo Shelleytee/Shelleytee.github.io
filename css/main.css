@@ -49,7 +49,7 @@ header {
   border-bottom: 2px solid #ff530d;
 }
 
-ul li {
+header ul li {
   display: inline-block;
   float: right;
   margin: 0;
@@ -57,7 +57,7 @@ ul li {
   align-content: flex-end;
 }
 
-ul li a {
+header ul li a {
   list-style: none;
   display: inline-block;
   line-height: 50px;
@@ -68,7 +68,7 @@ ul li a {
   font-weight: bold;
 }
 
-ul li a:hover {
+header ul li a:hover {
   background: #ff530d;
   color: #191919;
   cursor: pointer;
