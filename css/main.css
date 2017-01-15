@@ -1,5 +1,6 @@
 /* Table of Contents
   Global
+  Typography
   Navigation
   Slider Styles
   Main Body Styles
@@ -40,6 +41,19 @@ p a:hover {
   color: #ff530d;
 }
 
+/* Typography
+__________________________________________ */
+
+backquote {
+  font-size: 2rem;
+  font-style: italic;
+  font-family: serif;
+}
+
+.reference {
+  font-size: 1.1rem;
+  font-style: italic;
+}
 
 /* Navigation
 __________________________________________ */
@@ -150,15 +164,4 @@ ___________________________________________ */
   align-content: center;
   padding: 0 15px;
   margin: 0;
-}
-
-.img-place-orange {
-  text-align:center;
-  padding: 20px 0;
-  margin: 0 auto;
-  height: 150px;
-  width: 420px;
-  border-radius: 6px;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5) inset, 0 1px 1px #DDD;
-  background:radial-gradient( #e5e5e5, #191919);
 }
