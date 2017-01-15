@@ -55,6 +55,12 @@ backquote {
   font-style: italic;
 }
 
+/* This did not work 
+pre > code {
+  text-align: left;
+}
+*/
+
 /* Navigation
 __________________________________________ */
 

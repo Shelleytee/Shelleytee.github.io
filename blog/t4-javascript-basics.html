@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Shelley Thoughts Unfiltered</title>
+  <meta name="description" content="The ravings of someone who tries not to think.">
+  <meta name="author" content="Shelley Thompson">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Poiret+One" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../img/favicon.png">
+
+</head>
+
+<body>
+
+  <!-- Header
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <header>
+
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <nav class="container">
+      <div class="row">
+        <div class="one-half column"><img class="logo img-responsive img-circle" src=../img/napolean.jpg></div>
+        <div class="one-half column">
+          <ul>
+            <li><a href="cultural.html">Cultural</a></li>
+            <li><a href="technical.html">Technical</a></li>
+            <li><a href="../index.html">Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <!-- Main Body
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <main class="container">
+
+    <section class="nine columns">
+      <div class="row">
+        <h2>Reflections</h2>
+      </div>
+
+      <!-- Body of Articles
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="row">
+
+        <!-- Blog article 1 - For full page layout
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div class="twelve columns">
+          <div class="row">
+            <img class="img-responsive img-curved" src="../img/code-man.jpg" alt="image of doe man"></img>
+          </div>
+
+          <!-- Article Body
+          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+          <div class="row">
+            <h4 class="space">To Truely Code? Or Not to Code?...</h4>
+            <article>
+              <em>Captivating thoughts from someone who tries not to think.</em> </h2>
+              <h6>16 January 2017</h6>
+
+              <h5>JavaScript vs HTML & CSS</h5>
+              <p>
+                In one of my awesome earlier blogs I discussed the place of HTML & CSS. What they are and how they fit in with the "web development" infrastructure. <a href="t2-html-css-dom-p1.html" target="_blank">To read more about that...</a>
+              </p>
+              <p>
+                In comparasion Javascript is the muscles and tendons that add movement, flow, action, and substance to webpages. Without Javascript, HTML & CSS are trendy looking grannies. We love them alot, but they are just so slow and boring.</a>
+              </p>
+
+              <h5>Control Flow and Loops</h5>
+              <backquote>
+                The control flow is the order in which the computer executes statements in a script.
+              </backquote>
+              <p class="reference">
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Control_flow" target="_blank">MDN - Mozilla Developer Network</a>
+              </p>
+              <p>
+                Huh, you say? Well think of it like this. You wake up every morning, tumble outta of bed, stumble to the kitchen, pour yourself a cup of ambition, yawn and stretch and try to come to life. Jump into the shower and the blood starts pumpin, out on the street the traffic starts jumpin. Now suppose each of those actions were a script, the computer ensures that everything is done in the right order. This is called the control flow.
+              </p>
+              <backquote>
+                A loop is a sequence of instructions that is continually repeated until a certain condition is met...
+              </backquote>
+              <p class="reference">
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/loop" target="_blank">MDN - Mozilla Developer Network</a>
+              </p>
+              <p>
+                Huh, you say again? Well think of it like this. You wake up every morning... So, what does that entail? Waking up every morning, the same way, regardless of where you are, what your wearing, or how your sleeping... Lets see how that would look as a loop.
+              </p>
+              <pre>
+                <code>
+                  var alarm = true;
+                  var snoring = true;
+                  var dreaming = true;
+                  while (alarm) {
+                    if (snoring || dreaming) {
+                      console.log("Keep sleeping");
+                    } else {
+                      console.log("What the fudge!");
+                      alarm=false;
+                      console.log("Moan...");
+                    }
+                  }
+                </code>
+              </pre>
+
+              <h5>Accessing Data via Array[] vs Object{}</h5>
+              <backquote>
+                An array is an ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable.
+              </backquote>
+              <p class="reference">
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/array" target="_blank">MDN - Mozilla Developer Network</a>
+              </p>
+              <p>
+                Huh, you say? You really need to stop saying huh. It's getting a little annoying. 
+              </p>
+              <pre>
+                <code>
+                  var myToiletBag = ["toothbrush", "toothpaste", "shampoo", "soap"];
+                </code>
+              </pre>
+            </article>
+          </div><!-- End of Article Body -->
+        </div><!-- End of Blog Article 1 -->
+
+      </div><!-- End of Body of Articles -->
+    </section>
+
+    <!-- Right Aside
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <aside class="three columns">
+      <h5>Archive</h5>
+      <h6>Cultural</h6>
+      <p>
+        <a href="c4-daily-mindfulness.html">Sprint 4</a></br>
+        <a href="c3-meditation-process.html">Sprint 3</a></br>
+        <a href="c2-emotional-intelligence.html">Sprint 2</a></br>
+        <a href="c1-reflection-blog.html">Sprint 1 - B</a></br>
+        <a href="c1-time-and-habits-blog.html">Sprint 1 - A</a></br>
+      </p>
+      <h6>Technical</h6>
+      <p>
+        <a href="t4-javascript-basics.html">Sprint 4</a></br>
+        <a href="t3-design-to-web.html">Sprint 3</a></br>
+        <a href="t2-html-css-dom-p2.html">Sprint 2 - Pt2</a></br>
+        <a href="t2-html-css-dom-p1.html">Sprint 2 - Pt1</a>
+      </p>
+
+      <h5 class="space">Tags</h5>
+    </aside>
+
+  </main>
+
+  <!-- Footer
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <footer>
+    <div class="container">
+      <div class="four columns">
+        <a href="#0">social media links</a>
+      </div>
+      <div class="four columns">
+        <h5>Location</h5>
+        <address>
+          Te Atatu</br>
+          Auckland</br>
+          New Zealand
+        </address>
+      </div>
+      <div class="four columns">
+        <h5>Contact Us</h5>
+        <form>
+          <button class="button" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
