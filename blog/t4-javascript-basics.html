@@ -59,7 +59,7 @@
 
     <section class="nine columns">
       <div class="row">
-        <h2>Reflections</h2>
+        <h2>Technical</h2>
       </div>
 
       <!-- Body of Articles
@@ -83,7 +83,7 @@
 
               <h5>JavaScript vs HTML & CSS</h5>
               <p>
-                In one of my awesome earlier blogs I discussed the place of HTML & CSS. What they are and how they fit in with the "web development" infrastructure. <a href="t2-html-css-dom-p1.html" target="_blank">To read more about that...</a>
+                In one of my awesome earlier blogs I discussed the place of HTML & CSS. What they are and how they fit in with the "web development" infrastructure. To read more about that <a href="t2-html-css-dom-p1.html" target="_blank">[click here]...</a>
               </p>
               <p>
                 In comparasion Javascript is the muscles and tendons that add movement, flow, action, and substance to webpages. Without Javascript, HTML & CSS are trendy looking grannies. We love them alot, but they are just so slow and boring.</a>
@@ -97,7 +97,7 @@
                 <a href="https://developer.mozilla.org/en-US/docs/Glossary/Control_flow" target="_blank">MDN - Mozilla Developer Network</a>
               </p>
               <p>
-                Huh, you say? Well think of it like this. You wake up every morning, tumble outta of bed, stumble to the kitchen, pour yourself a cup of ambition, yawn and stretch and try to come to life. Jump into the shower and the blood starts pumpin, out on the street the traffic starts jumpin. Now suppose each of those actions were a script, the computer ensures that everything is done in the right order. This is called the control flow.
+                Huh, you say? Well think of it like this. You wake up every morning, tumble out of bed, stumble to the kitchen, pour yourself a cup of ambition, yawn and stretch and try to come to life. Jump into the shower and the blood starts pumpin, out on the street the traffic starts jumpin. Now suppose each of those actions were a script, the computer ensures that everything is done in the right order. This is called the control flow.
               </p>
               <backquote>
                 A loop is a sequence of instructions that is continually repeated until a certain condition is met...
@@ -108,22 +108,20 @@
               <p>
                 Huh, you say again? Well think of it like this. You wake up every morning... So, what does that entail? Waking up every morning, the same way, regardless of where you are, what your wearing, or how your sleeping... Lets see how that would look as a loop.
               </p>
-              <pre>
-                <code>
-                  var alarm = true;
-                  var snoring = true;
-                  var dreaming = true;
-                  while (alarm) {
-                    if (snoring || dreaming) {
-                      console.log("Keep sleeping");
-                    } else {
-                      console.log("What the fudge!");
-                      alarm=false;
-                      console.log("Moan...");
-                    }
-                  }
-                </code>
-              </pre>
+
+<pre><code>var alarm = true;
+var snoring = true;
+var dreaming = true;
+
+while (alarm) {
+  if (snoring || dreaming) {
+    console.log("Keep sleeping");
+  } else {
+    console.log("What the fudge!");
+    alarm=false;
+    console.log("Moan...");
+  }
+}</code></pre>
 
               <h5>Accessing Data via Array[] vs Object{}</h5>
               <backquote>
@@ -133,13 +131,75 @@
                 <a href="https://developer.mozilla.org/en-US/docs/Glossary/array" target="_blank">MDN - Mozilla Developer Network</a>
               </p>
               <p>
-                Huh, you say? You really need to stop saying huh. It's getting a little annoying. 
+                Huh, you say? You really need to stop saying huh. It's getting a little annoying. It is after all, 5am in the morning. So let's use the example of a single pouch toilet bag and what we may have in it.
               </p>
-              <pre>
-                <code>
-                  var myToiletBag = ["toothbrush", "toothpaste", "shampoo", "soap"];
-                </code>
-              </pre>
+<pre><code>var myToiletBag = ["toothbrush", "toothpaste", "soap", ["purse", "coins", 3]];</code></pre>
+              <p>
+                So now you want to look at the toothpaste in your toilet bag. How will that look in code.
+              </p>
+<pre><code>console.log(myToiletBag[1]);</code></pre>
+              <p>
+                When we look something up in an array we will use the location number of where an item is located.
+              </p>
+
+              <backquote>
+                Object refers to a data structure containing data and instructions for working with the data.
+              </backquote>
+              <p class="reference">
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/object" target="_blank">MDN - Mozilla Developer Network</a>
+              </p>
+              <p>
+                Huh, you say? I know, that's a curly one. But basically it's a lookup table. So now think of our earlier example of the toilet bag. A toilet bag has compartments. You may put your toothbrush and tooth paste in one compartment, your shampoo and hair brush in another compartment. And your electric razor in another compartment. So how would that look in code.
+              </p>
+<pre><code>var myToiletBag = {
+  "compartment1": {
+    "item1": "toothbrush",
+    "item2": "toothpaste"
+  },
+  "compartment2": {
+    "item1": "shampoo",
+    "item2": "hairbrush"
+  },
+  "compartment3": {
+    "item1": "electric razor"
+  }
+};</code></pre>
+              <p>
+                So now you want to look at the hair brush in your toilet bag. How will that look in code.
+              </p>
+<pre><code>console.log(myToiletBag.compartment2.item2);</code></pre>
+              <p>
+                When we look something up in an object we will use the names (eg compartment2.item2) of where a value (eg hair brush) is located.
+              </p>
+
+              <h5>Functions</h5>
+              <backquote>
+                A function is a code snippet that can be called by other code or by itself, or a variable that refers to the function. When a function is called, arguments are passed to the function as input, and the function can optionally return an output. A function in JavaScript is also an object.
+              </backquote>
+              <p class="reference">
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/function" target="_blank">MDN - Mozilla Developer Network</a>
+              </p>
+              <p>
+                Huh, you say? Stop doing that. No more huh's. Basically a function is a task or calculation that does something that can be repeated each time you want to use it. So, drawing on our first example of: You wake up every morning, tumble outta of bed, stumble to the kitchen, pour yourself a cup of ambition, yawn and stretch and try to come to life. Jump into the shower and the blood starts pumpin. We call all of these tasks together "getting ready for work". So lets see how the first task would fit within a function.
+              </p>
+<pre><code>function gettingReadyForWork() {
+  var alarm = true;
+  var snoring = true;
+  var dreaming = true;
+
+  while (alarm) {
+    if (snoring || dreaming) {
+      console.log("Keep sleeping");
+    } else {
+      console.log("What the fudge!");
+      alarm=false;
+      console.log("Moan...");
+    };
+}</code></pre>
+              <p>
+                We could add each task we need to do to get ready for work into the function. This ensures the tasks are completed in the same order and in the same way each time the function is run. This gaurantees that even if you are still asleep while you are getting ready for work you will not forget anything. Our brains would simply call the function to start it, like below...
+              </p>
+<pre><code>gettingReadyForWork();</code></pre>
             </article>
           </div><!-- End of Article Body -->
         </div><!-- End of Blog Article 1 -->
