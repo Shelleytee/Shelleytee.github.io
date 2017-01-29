@@ -58,9 +58,8 @@ backquote {
 
 code {
   white-space: pre-wrap;
-  display: block;
+  /*display: block;*/
 }
-
 
 /* Navigation
 __________________________________________ */

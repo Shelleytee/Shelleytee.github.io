@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Shelley Thoughts Unfiltered</title>
+  <meta name="description" content="The ravings of someone who tries not to think.">
+  <meta name="author" content="Shelley Thompson">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Poiret+One" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../img/favicon.png">
+
+</head>
+
+<body>
+
+  <!-- Header
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <header>
+
+    <!-- Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <nav class="container">
+      <div class="row">
+        <div class="one-half column"><img class="logo img-responsive img-circle" src=../img/napolean.jpg></div>
+        <div class="one-half column">
+          <ul>
+            <li><a href="cultural.html">Cultural</a></li>
+            <li><a href="technical.html">Technical</a></li>
+            <li><a href="../index.html">Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <!-- Main Body
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <main class="container">
+
+    <section class="nine columns">
+      <div class="row">
+        <h2>Technical Reflection</h2>
+      </div>
+
+      <!-- Body of Articles
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="row">
+
+        <!-- Blog article 1 - For full page layout
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <div class="twelve columns">
+          <div class="row">
+            <img class="img-responsive img-curved" src="../img/bug-report.png" alt="comic strip"></img>
+          </div>
+
+          <!-- Article Body
+          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+          <div class="row">
+            <h4 class="space">Curley Braces vs Double Quotes</h4>
+            <article>
+              <em>Captivating thoughts from someone who tries not to think.</em> </h2>
+              <h6>30 January 2017</h6>
+
+              <h5>Parentheses ( )</h5>
+              <p>
+                Parentheses are used for a number of different reasons JavaScript. They are used within mathmatical equations to represent grouping or prioritising of calculations. And, they are used within coding itself.
+              </p>
+              <p>
+                Examples are:
+              </p>
+              <ul>
+                <li>Mathmatical equations such as <code>total = 59 * ((3 + 9) - ((8 - 7) * 2))</code></li>
+                <li>Define variable within a Function
+<pre><code>function getTotalOfSum(num1, num2) {
+  add = num1 + num2;
+  return("Total" + add);
+}</code></pre></li>
+                <li>Call a Function <code>getTotalOfSum(2, 9)</code></li>
+              </ul>
+              <h5>Brackets [ ]</h5>
+              <p>
+                 Brackets are all about arrays, or a list of items (values) that can be found in a single place (variable).
+              </p>
+              <p>
+                An example is:
+              </p>
+              <ul>
+                <li>A toilet bag <pre><code>var myToiletBag = ["toothbrush", "toothpaste", "soap", ["purse", "coins", 3]];</code></pre></li>
+              </ul>
+              <h5>Braces { }</h5>
+              <p>
+                Braces, curly braces or curly brackets, help JavaScript to understand the structure of the script and what is wanted to be DONE (what action to be taken). There is always an opening curly brace and a closing curly brace.
+              </p>
+              <p>
+                Examples are:
+              </p>
+              <ul>
+                <li>Define the start and end of a Function</br>
+<pre><code>var functionName = function() {                   //start brace
+  console.log("Hello World");
+}                                                 //end brace</code></pre></li>
+                <li>Separate code into blocks within a Function</br>
+<pre><code>var functionName = function(choice1, choice2) {   //start brace
+  if (choice1 === choice2) {                      //start brace
+    return ("The result is a tie");
+  }                                               //end brace
+}                                                 //end brace</code></pre></li>
+                <li>Define the start and end of Loops</br>
+<pre><code>while (boolean expression) {                      //start brace
+  statement
+}                                                 //end brace</code></pre></li>
+                <li>Define the start and end of Conditional Statements</br>
+<pre><code>if (boolean expression) {                         //start brace
+  statement
+} else {                                          //end brace & start brace
+  statement
+}                                                 //end brace</code></pre></li>
+                <li>Defining an Objects contents</br>
+<pre><code>var myDog = {                                     //start brace
+  name: "Napolean",
+  breed: "Staffie X",
+  age: "8",
+  friends: ["Jaz", "Michele"]
+}                                                 //end brace</code></pre></li>
+              </ul>
+              <h5>Single Quotes ' '</h5>
+
+              <p>
+                Indicate that whatever is between them is not code to be actioned, but simple text or values to be read and/or displayed. Their contents is better known as a string.
+              </p>
+              <p>
+                An example is:
+              </p>
+              <ul>
+                <li>Create a variable with the content of a sentence that does nothing except say "Hello World"
+                  <code>var = 'Hello World'</code></li>
+              </ul>
+              <h5>Double Quotes " "</h5>
+              <p>
+                Does exactly the same as single quotes, but with double quotes. There is no difference between them for the program, it is more about which is more convenient for typing.
+              </p>
+              <p>
+                An example is:
+              </p>
+              <ul>
+                <li>Here us our variable with the content of the simple sentence
+                  <code>var = "Hello World"</code></li>
+              </ul>
+            </article>
+          </div><!-- End of Article Body -->
+        </div><!-- End of Blog Article 1 -->
+
+      </div><!-- End of Body of Articles -->
+    </section>
+
+    <!-- Right Aside
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <aside class="three columns">
+      <h5>Archive</h5>
+      <h6>Cultural</h6>
+      <p>
+        <a href="c6-control.html">Sprint 6</a></br>
+        <a href="c5-self-confidence.html">Sprint 5</a></br>
+        <a href="c4-daily-mindfulness.html">Sprint 4</a></br>
+        <a href="c3-meditation-process.html">Sprint 3</a></br>
+        <a href="c2-emotional-intelligence.html">Sprint 2</a></br>
+        <a href="c1-reflection-blog.html">Sprint 1 - B</a></br>
+        <a href="c1-time-and-habits-blog.html">Sprint 1 - A</a></br>
+      </p>
+      <h6>Technical</h6>
+      <p>
+        <a href="t6-js-language.html">Sprint 6</a></br>
+        <a href="t5-problem-solving.html">Sprint 5</a></br>
+        <a href="t4-javascript-basics.html">Sprint 4</a></br>
+        <a href="t3-design-to-web.html">Sprint 3</a></br>
+        <a href="t2-html-css-dom-p2.html">Sprint 2 - Pt2</a></br>
+        <a href="t2-html-css-dom-p1.html">Sprint 2 - Pt1</a>
+      </p>
+
+      <h5 class="space">Tags</h5>
+    </aside>
+
+  </main>
+
+  <!-- Footer
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <footer>
+    <div class="container">
+      <div class="four columns">
+        <a href="#0">social media links</a>
+      </div>
+      <div class="four columns">
+        <h5>Location</h5>
+        <address>
+          Te Atatu</br>
+          Auckland</br>
+          New Zealand
+        </address>
+      </div>
+      <div class="four columns">
+        <h5>Contact Us</h5>
+        <form>
+          <button class="button" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
